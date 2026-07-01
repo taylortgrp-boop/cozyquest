@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quest 04 — Basecamp Established</title>
+<style>
+:root{
+  --paper:#f8f7f1;
+  --ink:#221f1a;
+  --green:#285842;
+  --tan:#8b6a48;
+  --shadow:#11100d;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  padding:18px;
+  background:#e8dfcb;
+  color:var(--ink);
+  font-family:"Courier New", Courier, monospace;
+  font-size:18px;
+  line-height:1.55;
+}
+.page{
+  max-width:760px;
+  margin:0 auto;
+  background:var(--paper);
+  border:5px solid var(--ink);
+  box-shadow:10px 10px 0 var(--shadow);
+  padding:24px 22px 28px;
+  position:relative;
+}
+.corner{
+  position:absolute;
+  width:54px;
+  height:54px;
+  border:5px solid var(--ink);
+  background:var(--paper);
+}
+.tl{top:-5px;left:-5px}
+.tr{top:-5px;right:-5px}
+.bl{bottom:-5px;left:-5px}
+.br{bottom:-5px;right:-5px}
+.badge{
+  width:max-content;
+  margin:0 auto 24px;
+  padding:7px 20px;
+  border:4px solid var(--ink);
+  box-shadow:5px 5px 0 var(--shadow);
+  background:#fff;
+  font-weight:900;
+  letter-spacing:2px;
+  font-size:13px;
+  text-transform:uppercase;
+}
+.divider{
+  text-align:center;
+  color:var(--tan);
+  font-weight:900;
+  letter-spacing:2px;
+  margin:14px 0;
+}
+.quest-number{
+  text-align:center;
+  font-weight:900;
+  letter-spacing:2px;
+  font-size:19px;
+}
+h1{
+  margin:8px 0 10px;
+  text-align:center;
+  color:var(--green);
+  font-size:42px;
+  line-height:1.05;
+  font-weight:900;
+  letter-spacing:2px;
+  text-shadow:2px 2px 0 #111;
+}
+.panel{
+  border:4px solid var(--ink);
+  box-shadow:5px 5px 0 var(--shadow);
+  background:#fff;
+  padding:16px 18px;
+  margin:24px 0;
+}
+h2{
+  margin:0 0 14px;
+  color:var(--green);
+  font-size:20px;
+  letter-spacing:2px;
+  border-bottom:3px solid var(--ink);
+  padding-bottom:8px;
+  text-transform:uppercase;
+}
+.objectives{
+  list-style:none;
+  padding:0;
+  margin:0;
+}
+.objectives li{
+  margin:8px 0;
+}
+.system{
+  color:var(--green);
+  font-weight:900;
+  letter-spacing:1.2px;
+}
+.footer{
+  border-top:3px dashed #777;
+  margin-top:26px;
+  padding-top:16px;
+  text-align:center;
+  color:#6f6254;
+  font-size:14px;
+}
+@media(max-width:520px){
+  body{padding:10px;font-size:17px}
+  .page{padding:22px 14px}
+  h1{font-size:34px}
+}
+</style>
+</head>
+<body>
+<main class="page">
+  <div class="corner tl"></div>
+  <div class="corner tr"></div>
+  <div class="corner bl"></div>
+  <div class="corner br"></div>
+
+  <div class="badge">QUEST UNLOCKED</div>
+
+  <div class="divider">════════════════════</div>
+  <div class="quest-number">QUEST 04</div>
+  <h1>BASECAMP<br>ESTABLISHED</h1>
+  <div class="divider">════════════════════</div>
+
+  <section class="panel">
+    <h2>Mission Brief</h2>
+    <p>A temporary headquarters has been located.</p>
+    <p>The campaign may now enter cozy mode.</p>
+    <p>Settle in, inspect the surroundings, and allow the evening to unfold.</p>
+    <p>Further mission data will be revealed only if necessary.</p>
+  </section>
+
+  <section class="panel">
+    <h2>Objectives</h2>
+    <ul class="objectives">
+      <li>☐ Arrive at basecamp</li>
+      <li>☐ Unload the inventory</li>
+      <li>☐ Inspect available amenities</li>
+      <li>☐ Activate cozy mode</li>
+    </ul>
+  </section>
+
+  <section class="panel">
+    <h2>Bonus Data</h2>
+    <p>Temporary shelters may become emotionally significant without warning.</p>
+  </section>
+
+  <section class="panel">
+    <h2>System Message</h2>
+    <p class="system">
+      SAVE FILE UPDATED<br>
+      CAMPAIGN STATUS: ACTIVE<br>
+      QUEST PROGRESS: 4 / 7<br>
+      BASECAMP DATA: SECURED
+    </p>
+  </section>
+
+  <footer class="footer">
+    Save File: RACHEL_37.SAV<br>
+    Property of the Cozy Quest Guild
+  </footer>
+</main>
+</body>
+</html>

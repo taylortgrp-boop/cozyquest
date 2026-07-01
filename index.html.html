@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rae's Cozy Quest — Rules</title>
+<style>
+:root{--paper:#f8f7f1;--ink:#231f1a;--green:#285842;--tan:#8b6a48;--shadow:#11100d}
+*{box-sizing:border-box}
+body{margin:0;padding:18px;background:#e8dfcb;color:var(--ink);font-family:"Courier New",Courier,monospace;font-size:16px;line-height:1.45}
+.page{max-width:760px;margin:0 auto;background:var(--paper);border:5px solid var(--ink);box-shadow:10px 10px 0 var(--shadow);padding:24px 22px 28px;position:relative}
+.corner{position:absolute;width:48px;height:48px;border:5px solid var(--ink);background:var(--paper)}
+.tl{top:-5px;left:-5px}.tr{top:-5px;right:-5px}.bl{bottom:-5px;left:-5px}.br{bottom:-5px;right:-5px}
+.badge{width:max-content;margin:0 auto 18px;padding:6px 20px;border:4px solid var(--ink);box-shadow:5px 5px 0 var(--shadow);background:#fff;font-weight:900;letter-spacing:2px;font-size:13px}
+h1{margin:0;text-align:center;color:var(--green);font-size:30px;line-height:1.05;font-weight:900;letter-spacing:2px;text-shadow:1px 1px 0 #111}
+.subtitle{margin:12px 0 20px;text-align:center;font-weight:900;letter-spacing:3px;color:var(--tan)}
+.forest{display:flex;justify-content:center;align-items:flex-end;gap:18px;margin:18px 0 26px}
+.tree{width:44px;height:70px;position:relative}
+.tree:before{content:"";position:absolute;left:50%;transform:translateX(-50%);bottom:20px;width:0;height:0;border-left:22px solid transparent;border-right:22px solid transparent;border-bottom:34px solid var(--green)}
+.tree:after{content:"";position:absolute;left:50%;transform:translateX(-50%);bottom:0;width:12px;height:25px;background:var(--paper);border:4px solid var(--ink)}
+.tree .top{position:absolute;left:50%;transform:translateX(-50%);bottom:44px;width:0;height:0;border-left:16px solid transparent;border-right:16px solid transparent;border-bottom:26px solid var(--green)}
+.smalltree{transform:scale(.75)}.bigtree{transform:scale(1.12)}
+.redacted{text-align:center;border:4px solid var(--ink);box-shadow:5px 5px 0 var(--shadow);background:#fff;padding:8px;margin:18px 0 20px;font-weight:900;letter-spacing:1.5px;font-size:13px}
+.stat{border:4px solid var(--ink);box-shadow:5px 5px 0 var(--shadow);background:#fff;padding:10px 12px;margin:12px 0}
+.label{font-size:11px;letter-spacing:2px;color:var(--tan);font-weight:900}.value{color:var(--green);font-weight:900;font-size:20px;margin-top:5px}
+.panel{border:4px solid var(--ink);box-shadow:5px 5px 0 var(--shadow);background:#fff;padding:16px;margin:24px 0}
+h2{margin:0 0 12px;color:var(--green);font-size:22px;letter-spacing:1.5px;border-bottom:3px solid var(--ink);padding-bottom:8px}
+.discovery{border:3px solid var(--ink);padding:10px;margin:10px 0;background:#fff}.discovery b{color:var(--green)}
+.level{display:flex;justify-content:space-between;border:3px solid var(--ink);padding:8px 10px;margin:8px 0;font-weight:900}.center{text-align:center;font-weight:900;color:var(--green)}
+.tip{border-left:5px solid var(--green);padding-left:12px;margin:12px 0}.footer{border-top:3px dashed #777;margin-top:24px;padding-top:16px;text-align:center;color:#6f6254;font-size:13px}
+@media(max-width:520px){body{padding:10px;font-size:15px}.page{padding:22px 14px}h1{font-size:24px}.forest{gap:10px}}
+</style></head>
+<body><main class="page">
+<div class="corner tl"></div><div class="corner tr"></div><div class="corner bl"></div><div class="corner br"></div>
+<div class="badge">SAVE FILE FOUND</div>
+<h1>YEAR 37<br>RAE'S COZY QUEST</h1><div class="subtitle">CAMPAIGN MODE</div>
+<div class="forest"><div class="tree smalltree"><div class="top"></div></div><div class="tree bigtree"><div class="top"></div></div><div class="tree bigtree"><div class="top"></div></div><div class="tree smalltree"><div class="top"></div></div></div>
+<div class="redacted">[ DESTINATION DATA REDACTED ]</div>
+<section class="stat"><div class="label">Player</div><div class="value">Rachel</div></section>
+<section class="stat"><div class="label">Status</div><div class="value">Ready</div></section>
+<section class="stat"><div class="label">Target Level</div><div class="value">37</div></section>
+<section class="stat"><div class="label">Coins</div><div class="value">37</div></section>
+<section class="stat"><div class="label">Quests</div><div class="value">7</div></section>
+<section class="stat"><div class="label">Difficulty</div><div class="value">Cozy</div></section>
+<section class="panel"><h2>Campaign Initialized</h2><p>Welcome, Player.</p><p>A special campaign has been prepared exclusively for you.</p><p>No planning is required. No spoilers will be provided. Your only objective is to play.</p></section>
+<section class="panel"><h2>Coins + Discoveries</h2><p>Coins can be exchanged for wrapped <strong>Discoveries</strong> throughout the campaign.</p><p>Each Discovery has a visible coin cost. Choose the ones that call to you. Strategy is allowed. Vibes are also allowed.</p><div class="discovery">🍂 <b>Common Discovery</b><br>1 Coin</div><div class="discovery">🌿 <b>Curious Discovery</b><br>2 Coins</div><div class="discovery">✨ <b>Rare Discovery</b><br>3 Coins</div><div class="discovery">⭐ <b>Legendary Discovery</b><br>4 Coins</div><p><strong>Game Master Note:</strong> A balanced adventurer generally spends 7–11 coins per day. Results may vary.</p></section>
+<section class="panel"><h2>The Treasure Chest</h2><p>Certain levels unlock access to the <strong>Treasure Chest</strong>.</p><p>Inside are four hidden pieces of <strong>Loot</strong>.</p><p>When instructed: reach in, choose one, and accept your fate.</p><p>No peeking. No shaking. No swaps.</p></section>
+<section class="panel"><h2>XP Progression</h2><p>Earn XP. Level up. Unlock rewards.</p><div class="level"><span>Level 10</span><span>LOCKED</span></div><div class="level"><span>Level 14</span><span>LOCKED</span></div><div class="level"><span>Level 19</span><span>LOCKED</span></div><div class="level"><span>Level 28</span><span>LOCKED</span></div><div class="level"><span>Level 37</span><span>???</span></div></section>
+<section class="panel"><h2>Quest Protocol</h2><p><strong>7 Quest Cards</strong> have been issued.</p><p>Scan only when instructed. Each Quest reveals the next chapter of your adventure.</p><p class="center">DESTINATIONS: CLASSIFIED<br>MISSION DATA: REDACTED</p></section>
+<section class="panel"><h2>Loading Tips</h2><div class="tip">A side quest may disguise itself as a practical decision. It is lying.</div><div class="tip">Spend your coins. Something else is worth saving.</div><div class="tip">Four hidden C-words await discovery: one is sensed, one is served, one is decoded, one is sacred.</div></section>
+<section class="panel"><h2>Patch Notes</h2><p><strong>Version 37.0</strong></p><p>• Added new quests<br>• Added Discoveries<br>• Added Treasure Chest functionality<br>• Improved birthday experience<br>• Fixed previous year's bugs</p></section>
+<section class="panel"><h2>Campaign Directive</h2><p class="center">MISSION STATUS: ACTIVE<br>PLAYER STATUS: READY<br>REWARD DATA: UNKNOWN</p><p><strong>Good luck, adventurer.</strong></p></section>
+<footer class="footer">Save File: RACHEL_37.SAV<br>Property of the Cozy Quest Guild<br>Unauthorized walkthroughs prohibited.<br><br><strong>Bae's Birthday Bundles™</strong><br><em>Handcrafted adventures since Version 1.0</em></footer>
+</main></body></html>
